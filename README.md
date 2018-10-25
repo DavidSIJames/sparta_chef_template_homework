@@ -19,4 +19,36 @@ unit and intergration tests should be written and should all pass
 
 4. If you do not have git installed follow this [guide](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
 
-5. In your browser, navigate to this [page](https://github.com/DavidSIJames/Sparta_advance_bash_homework)
+5. In your browser, navigate to this [page](https://github.com/DavidSIJames/sparta_chef_template_homework)
+
+6. Open your Terminal and navigate to where you want to clone the repo.
+
+7. Once there, enter the following command to clone the repo:
+
+	```terminal
+	git clone git@github.com:DavidSIJames/sparta_chef_template_homework.git
+  ```
+8. once the repo has been cloned, cd into it using this command
+
+	```terminal
+	cd sparta_chef_template_homework
+	```
+9. to run the unit test enter the following command into the Terminal
+
+```terminal
+  chef exec rspec spec
+```  
+10. to run the intergration test enter the following command
+
+```Terminal
+  kitchen test
+```
+## challenges
+
+The biggest challenge i faced was writing the tests, and find the commands to use in the recipe.
+
+this was extremely frustrating, and i am still not confident in my understanding.
+
+## Takeaway
+
+A lot more work is needed in chef
