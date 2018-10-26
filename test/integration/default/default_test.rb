@@ -17,8 +17,9 @@ describe service "mongod" do
   it {should be_enabled}
 end
 
+# test that checks what process and address is running on this port
 describe port(27017) do
   it {should be_listening}
   its('processes') {should include 'mongod'}
-  its('addresses') {should include '0.0.0.0'}
+  its('addresses') {should include '0.0.0.0'} # needs clarification 
 end
