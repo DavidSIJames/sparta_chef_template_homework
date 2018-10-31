@@ -51,4 +51,4 @@ this was extremely frustrating, and i am still not confident in my understanding
 
 ## Takeaway
 
-A lot more work is needed in chef
+A lot more work is needed in chef.
